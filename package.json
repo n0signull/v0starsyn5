@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@supabase/ssr": "0.6.1",
@@ -67,8 +67,7 @@
     "react-native": "latest",
     "expo-file-system": "latest",
     "@react-three/fiber": "latest",
-    "@react-three/drei": "latest",
-    "tailwindcss": "latest"
+    "@react-three/drei": "latest"
   },
   "devDependencies": {
     "@types/node": "^22",
@@ -79,4 +78,3 @@
     "typescript": "^5"
   }
 }
-
